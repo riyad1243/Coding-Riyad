@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    background-color: white;
+    color: #385F96;
+    padding: 10px;
+}
+.container{
+    background-color: white;
+    color: #385F96;
+    width: 1280px;
+    margin: 0px auto;
+}
+
+.header-wapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: #385F96;
+}
+
+.btn-primary{
+    background-color: #385F96;
+    color: white;
+    padding: 10px 20px;
+    display: inline block;
+    }
+    
+    .hero-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 0;
+    }
+    .div.container{
+    display: flex;
+    align-items: center;
+    }
+  
+    .hero-two{
+        display: flex;
+        align-items:center;
+        gap: 20px;
+        padding: 100px 0;
+    }
+   
+    .hero-three{
+        display: flex;
+        align-items:center;
+        gap: 20px;
+        padding: 100px 0;
+    }

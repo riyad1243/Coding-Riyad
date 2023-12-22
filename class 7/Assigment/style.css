@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --primary-color:#0A8270;
+     --heading-color:#314D4A;
+     --pragraph-text-color:#646D6C;
+     --white-color:#FFFFFF;
+}
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero-container-one{
+    display: flex;
+    text-align: center;
+    color: var(--pragraph-text-color);
+    gap: 20px;
+}
+
+/* header styles start */
+
+.header-flex-container{
+    margin: 50px 0;
+    text-align: center;
+    color: var(--heading-color);
+    font-size: 15px;
+    width: 800px;
+}
+/* header styles end */
+
+/* hero section styles start */
+.hero-wrapper{
+    text-align:center;
+    color: var(--heading-color);
+    width: 180px;
+    justify-content: space-between;
+}
+/* hero section styles end */
+
+/* projects section styles start */
+
+.project-container-one,
+.project-container-two{
+display: flex;
+color: var(--heading-color);
+}
+/* projects section styles end */

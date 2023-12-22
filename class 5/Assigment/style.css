@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+}
+
+
+
+.header{
+    color: #0A8080;
+    padding:50px 0;
+    text-align: center;
+}
+
+.header h1 {
+    color:#0A8080;
+    font-size: 48px;
+}
+
+
+.bolg{
+    margin: 50px 0;
+    text-align: center;
+}
+.blog p span{
+    background-color: red;
+    border-bottom: 1px solid red;
+    /* text-decoration: underline; */
+}
+
+
+.box .post .small-para {
+    display: inline-block;
+    border-bottom: 1px solid red;
+    font-size: 20px;
+}
+
+.post  {
+    margin-bottom: 30px;
+background: #D7F2EC;
+text-align: center;
+padding: 50px 0px;
+box-sizing: border-box;
+
+}
+.post a{
+    color: rgb(40, 2, 255);
+    
+    padding: 12px;
+    text-align: left ;
+    text-decoration: none;
+}
+footer {
+    background-color: #326155;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}

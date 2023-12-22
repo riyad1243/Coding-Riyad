@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* .header-area-start */
+
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+.container {
+    display: grid;
+    max-width: 1440px;
+    margin: auto;
+}
+.header-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .header-area-end */
+
+/* .main-area-start */
+.hero-wrapper{
+    background-color: #89d2e9;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.hero-content p{
+    margin: 20px 0;
+}
+.hero-content{
+width: 70%;
+}
+.hero-img{
+    width: 30%;
+}
+
+
+/* another-tag-start */
+.header-wrapper{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.header-title h1{
+    margin: 50px;
+}
+.hero-content-two p{
+    margin: 20px 0;
+}
+.hero-img-two{
+width: 30%;
+}
+.hero-content-two{
+    width: 70%;
+}
+.side-img{
+padding: 10px;
+text-align: end;
+}
+/* another-tag-end */
+
+
+
+/* blog-post-start */
+.blog-posts{
+    text-align: center;
+padding: 50px;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+ }
+.btn-primary {
+ margin: auto;
+}
+ /* blog-post-end */
+
+
+/* other-section-start */
+ .faul-box{
+    display: flex;
+    margin: auto;
+    gap: 20%;
+    padding: 40px;
+ }
+
+ .faul-box h1{
+    padding: 45px;
+ }
+.faul-img{
+    text-align: center;
+}
+/* other-section-end */
+
+
+/* customer-section-start */
+.customer-review-wrapper{
+    background-color: #89d2e9;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.customer-content p{
+    margin: 40px 0;
+}
+.customer-content{
+    width: 70%;
+}
+.customer-img{
+    width: 30%;
+}
+/* customer-section-end */
+
+
+/* last-section-start */
+.last-content{
+    background-color: #FFD36A;
+text-align: center;
+padding: 10%;
+}
+.last-content h1{
+    margin: 40px;
+}
+.last-content p{
+    margin: 30px;
+}
+/* last-section-end */
+
+/* main-area-end */
+
+/* footer-section-start */
+.footer{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    justify-content: space-between;
+}
+/* footer-section-end */

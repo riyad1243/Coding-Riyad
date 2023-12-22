@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #11001C;
+    color: white;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.task-input{
+    margin: 50px 0;
+}
+
+.task-input h1 {
+    margin-bottom: 20px;
+}
+
+#new-task-input{
+    padding: 10px;
+    border: 1px solid #290025;
+    font-size: 18px;
+    width: 100%;
+}
+
+#new-task-submit {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #b146a6;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.task-list h2 {
+    margin-bottom: 18px;
+}
+
+#tasks {
+    background-color: #1d0216;
+    padding: 20px;
+    border: 1px solid #a8259b;
+}
+
+.task {
+    margin-bottom: 20px;
+    background-color: #290025;
+    padding: 10px;
+}
+
+.text {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 2px solid #a8259b;
+    margin-bottom: 10px;
+}
+
+.edit,
+.delete,
+.complete {
+    padding: 10PX 20PX;
+    text-transform: uppercase;
+    background-color: #b146a6;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: rgb(224, 40, 40);
+    margin: 0 10px;
+}
+
+.complete {
+    background-color: #0a610a;
+}
+
+.mark-completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}

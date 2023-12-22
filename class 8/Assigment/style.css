@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --primary-color:#878CFF;
+    --heading-color:#21243D;
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: style none;;
+}
+
+/* header styles start */
+.header-flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+}
+
+nav ul{
+    display: flex;
+list-style-type: none;
+gap: 20px;
+}
+
+.bottom {
+    display: inline-block;
+    color: white;
+    background-color: var(--heading-color);
+}
+
+/* header styles end */
+
+
+/* hero-area-start */
+.hero-content{
+   
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero-img {
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+
+    
+}
+.hero-content p {
+    text-align: center;
+
+}
+
+.btn {
+    text-align: center;
+    background-color:var(--primary-color);
+}
+/* hero-area-end */
+
+
+/* hero-wrapper-area-start */
+.wrapper-flex-container{
+    display: flex;
+    padding: 30px 50px;
+    gap: 100px;
+}
+
+.hero-wrapper-content h1{
+font-size: 3rem;
+
+}
+.hero-wrapper-content p{
+    width: 452px;
+height: 116px;
+top: 1096px;
+left: 669px;
+}
+
+.btn {
+    color: white;
+    background-color: var(--primary-color);
+}
+/* hero-wrapper-area-end */
+
+/* wrapper-content-area-start */
+.wrapper-content h1 {
+   
+    text-align: center;
+}
+
+.wrapper-content-one {
+    padding: 20px 30px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+/* wrapper-content-area-end */
+
+
+/* box-content-area-start */
+
+.box-content h1{
+color: #878CFF;
+}
+
+.box-content {
+    padding: 20px 300px;
+    display: flex;
+    text-align: center;
+    gap: 80px;
+}
+/* box-content-area-end */
+
+
+/* footer-section-start */
+.footer-section {
+    padding: 20px 40px;
+    
+
+    text-align: center;
+    background-color: #1E1E1E;
+}
+/* footer-section-start */
+
+
+
+
+
+
+
+
+
+
+

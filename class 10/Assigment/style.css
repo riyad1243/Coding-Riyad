@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+*{
+   margin: auto;
+   max-width: 1200px;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+
+.body {
+    font-family: 'Playfair Display', serif;
+}
+
+/* .header-area-start */
+img{
+   max-width: 100%;
+}
+ul{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
+nav ul {
+   display: flex;
+   gap: 20px;
+}
+
+/* .btn-primary{
+   background-color: black;
+   color: white;
+   padding: 10px 20px;
+   display: inline-block;
+} */
+
+nav ul li a{
+   color: #3A3A3A;
+}
+
+.header{
+   background-color: #3C7D36;
+   color: white;
+   padding: 20px 0;
+gap: 20px;
+}
+   
+.container {
+   max-width: 1200px;
+   margin: auto;
+}
+
+
+.header-container {
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+   text-align: center;
+}
+/* .header-area-end */
+
+/* .main-area-start */
+
+.blog-container{
+   display: grid;
+   grid-template-columns:2fr 2fr ;
+   gap: 2rem;
+}
+/* .main-area-end */
+
+/* footer-section-start */
+.footer-section {
+   background-color: #3C7D36;
+   color: white;
+   display: flex;
+   text-align: center;
+   margin: auto;
+   padding: 50px;
+}
+   
+/* footer-section-end */
