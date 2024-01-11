@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "ColorPickUp",
+    "description": "A color picker tool to pick color from any webpage",
+    "version": "1.0",
+    "author":"Coding Riyad",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "colorpicker.webp"
+    }
+  }
