@@ -20,6 +20,13 @@
 body {
    background: var(--bg-color); 
    color: var(--text-color);
+   /* position: fixed; */
+   /* width: 100% ;
+   top: 0;
+   right: 0; */
+   /* z-index: 1000; */
+   /* align-items: center; */
+   /* justify-content: space-between; */
 }
 
 /* .container {
@@ -28,7 +35,7 @@ body {
 } */
 
 /* header area start */
-header {
+header{
     position: fixed;
     width: 100% ;
     top: 0;
@@ -88,6 +95,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
+    padding: 22px 15%;
     background-image: url(number1.jpeg);
     background-size: cover;
     background-position: center;
@@ -188,6 +196,7 @@ header.sticky{
 /* about section start */
 .about{
     display: grid;
+    padding: 22px 15%;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
@@ -237,6 +246,7 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
+    padding: 22px 15%;
     gap: 2.5rem;
     margin-top: 5rem;
 }
@@ -288,6 +298,7 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     align-items: center;
+    padding: 22px 15%;
     gap: 2.5rem;
     margin-top: 5rem;
 }
@@ -354,6 +365,7 @@ header.sticky{
 .contact{
     background: var(--second-bg-color);
     display: grid;
+    padding: 22px 15%;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
@@ -463,7 +475,7 @@ form textarea{
 }
 /* end section end */
 
-/* @media (max-width:1480px){
+@media (max-width:1480px){
     header{
         padding: 12px 2.5%;
         transition: .1s;
@@ -475,4 +487,73 @@ form textarea{
     section{
         padding: 110px 3% 60px;
     }
-} */
+    .end{
+        padding: 15px 3px;
+    }
+}
+
+@media (max-width: 1100px){
+    :root{
+        --big-font: 4rem;
+        --h2-font: 2.5rem;
+        --p-font: 1rem;
+        transition:  .1s;
+    }
+    .home-text h3{
+        font-size: 2.5rem;
+    }
+    .home{
+        height: 87vh;
+    }
+}
+
+@media (max-width: 920px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .contact{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 840px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all .45s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
+    .navlist a:hover{
+        color: var(--main-color);
+    }
+    .navlist a:active{
+        color: var(--text-color);
+    }
+    .navlist.open{
+        top: 100%;
+    }
+}
